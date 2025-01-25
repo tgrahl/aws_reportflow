@@ -1,0 +1,1 @@
+boto3==1.24.21  # AWS SDK for Python, needed to interact with AWS services like S3

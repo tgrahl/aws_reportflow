@@ -1,0 +1,16 @@
+transaction_id,transaction_date,amount,currency,description,client_name,country
+,2024-01-22 11:10:00,1000.00,ZAR,Consulting services,Clara Osei,South Africa
+,2024-01-22 11:10:00,1000.00,ZAR,Consulting services,Clara Osei,South Africa
+,2024-01-22 11:10:00,1000.00,ZAR,Consulting services,Clara Osei,South Africa
+,2024-01-15 14:32:00,150.50,USD,Purchase of office supplies,Alice Johnson,USA
+,2024-01-15 14:32:00,150.50,USD,Purchase of office supplies,Alice Johnson,USA
+,2024-01-15 14:32:00,150.50,USD,Purchase of office supplies,Alice Johnson,USA
+,2024-01-20 09:45:00,200.00,USD,Membership subscription,Alice Johnson,USA
+,2024-01-20 09:45:00,200.00,USD,Membership subscription,Alice Johnson,USA
+,2024-01-20 09:45:00,200.00,USD,Membership subscription,Alice Johnson,USA
+,2024-01-25 16:45:00,300.75,MXN,Hardware purchase,Diego Torres,Mexico
+,2024-01-25 16:45:00,300.75,MXN,Hardware purchase,Diego Torres,Mexico
+,2024-01-25 16:45:00,300.75,MXN,Hardware purchase,Diego Torres,Mexico
+,2024-01-18 17:20:00,75.00,GBP,Event ticket purchase,Bob Smith,UK
+,2024-01-18 17:20:00,75.00,GBP,Event ticket purchase,Bob Smith,UK
+,2024-01-18 17:20:00,75.00,GBP,Event ticket purchase,Bob Smith,UK

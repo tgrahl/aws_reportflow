@@ -1,0 +1,35 @@
+{
+    "Comment": "ReportFlow Step Functions",
+    "StartAt": "PrepareReport",
+    "States": {
+      "PrepareReport": {
+        "Type": "Task",
+        "Resource": "arn:aws:lambda:<region>:<account-id>:function:reportflow_report_prep",
+        "TimeoutSeconds": 300,
+        "Retry": [
+          {
+            "ErrorEquals": ["States.ALL"],
+            "IntervalSeconds": 10,
+            "MaxAttempts": 2,
+            "BackoffRate": 2
+          }
+        ],
+        "Next": "GenerateReportFile"
+      },
+      "GenerateReportFile": {
+        "Type": "Task",
+        "Resource": "arn:aws:lambda:<region>:<account-id>:function:reportflow_report_file",
+        "TimeoutSeconds": 300,
+        "Retry": [
+          {
+            "ErrorEquals": ["States.ALL"],
+            "IntervalSeconds": 10,
+            "MaxAttempts": 2,
+            "BackoffRate": 2
+          }
+        ],
+        "End": true
+      }
+    }
+  }
+  

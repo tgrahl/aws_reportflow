@@ -101,7 +101,11 @@ Stores the processed data for reports.
 
 You can seed your Redshift tables with sample data using the SQL scripts stored in the `redshift/seed_data/` directory.
 
----
+## Monitoring and Logging
+
+The ReportFlow platform has a CloudWatch dashboard for monitoring Lambda functions and Redshift performance. It tracks execution times, invocations, and logs checkpoints.
+
+For more details on the CloudWatch dashboard setup, refer to the [CloudWatch Dashboard Documentation](./docs/CloudWatch_Dashboard.md).
 
 ## Deployment Instructions
 
